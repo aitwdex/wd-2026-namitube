@@ -1,1 +1,14 @@
+@charset "UTF-8";
 
+body
+{
+  background-image:linear-gradient(rgba(0,0,0,0.1)),url(./images/japan.gif); 
+  background-size:cover;
+  background-repeat: no-repeat;
+
+  /* ↓スクロールした時に背景を固定する */
+  background-attachment: fixed;
+  color: black;
+  font-family:"MS明朝","ヒラギノ角ゴ ProN","sans-serif"
+  /* background-repeat:repeat-x; */
+}
